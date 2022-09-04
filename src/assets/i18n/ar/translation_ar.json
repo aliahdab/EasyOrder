@@ -1,3 +1,16 @@
 {
+  "home" : {
+    "test": "logo"
+  },
+  "search": {
+    "whereTo": "Where to?",
+    "now": "Now"
+  },
+  "savedPlace" : {
+    "desc" : "Choose a saved place"
+  },
+  "destinationOnMap": {
+    "desc" : "Set destination on map"
+  }
 
 }
