@@ -1,16 +1,16 @@
 {
-  "home" : {
-    "test": "logo"
-  },
   "search": {
-    "whereTo": "Where to?",
-    "now": "Now"
+    "whereTo": "الى أين؟",
+    "now": "الأن"
   },
   "savedPlace" : {
-    "desc" : "Choose a saved place"
+    "desc" : "اختر مكاتاً محفوظاً"
   },
   "destinationOnMap": {
-    "desc" : "Set destination on map"
+    "desc" : "حدد الوجهة على الخريطة"
+  },
+  "WhereTo": {
+    "WhereFrom": "أدخل موقع الإقلال",
+    "WhereTo": "إلى أين؟"
   }
-
 }

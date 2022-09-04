@@ -4,13 +4,8 @@ import en from './en/translation_en.json';
 import ar from './ar/translation_ar.json';
 import fr from './fr/translation_fr.json';
 import {NativeModules, Platform} from 'react-native';
+import {phoneLanguage} from '../../tools/util';
 
-let deviceLanguage =
-  Platform.OS === 'ios'
-    ? NativeModules.SettingsManager.settings.AppleLocale
-    : NativeModules.I18nManager.localeIdentifier;
-
-const phoneLanguage = deviceLanguage.substring(0, 2);
 const languages = ['en', 'fr', 'ar'];
 
 const resources = {

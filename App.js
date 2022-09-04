@@ -9,8 +9,8 @@ import {
   Platform,
   StyleSheet,
 } from 'react-native';
-import HomeScreen from './src/Screens/HomeScreen';
 import './src/assets/i18n';
+import WhereTo from './src/Screens/WhereTo';
 
 const App = () => {
   return (
@@ -23,7 +23,7 @@ const App = () => {
               style={appStyle}
               keyboardVerticalOffset={Platform.OS === 'ios' ? -64 : 0}
             />
-            <HomeScreen />
+            <WhereTo />
           </SafeAreaProvider>
         </NavigationContainer>
       </React.Suspense>

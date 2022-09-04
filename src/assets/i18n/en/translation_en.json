@@ -1,16 +1,16 @@
 {
-  "home" : {
-    "test": "logo"
-  },
   "search": {
     "whereTo": "Where to?",
     "now": "Now"
   },
-  "savedPlace" : {
-    "desc" : "Choose a saved place"
+  "savedPlace": {
+    "desc": "Choose a saved place"
   },
   "destinationOnMap": {
-    "desc" : "Set destination on map"
+    "desc": "Set destination on map"
+  },
+  "WhereTo": {
+    "WhereFrom": "Enter pick-up location",
+    "WhereTo": "Where to?"
   }
-
 }
